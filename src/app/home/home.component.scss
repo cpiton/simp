@@ -1,51 +1,137 @@
 #main {
   margin-top: 80px;
-  padding: 40px;
+  padding: 0;
 }
 
 section {
     padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  h2 {
-    margin-bottom: 10px;
-  }
-  
-  .video-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .video-container iframe {
-    max-width: 100%;
-  }
+    font-weight: 500;
+}
+
+.w_text {
+  font-size: 54px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.sub_w_text {
+  text-align: center;
+  color: #777e90;
+  font-weight: 600;
+}
+
+.t_c_button {
+  padding: 40px;
+  text-align: center;
+}
+
+.s_i_text {
+  color: #777e90;
+  font-weight: 600;
+}
+
+.sub_amount_t {
+  padding: 0;
+  margin: 0;
+  color: #777e90;
+  font-weight: 600;
+}
+
+.amount_t {
+  padding: 0;
+  margin: 20px 0 5px 0;
+}
+
+.t_button {
+  background-color: #008ffd !important;
+  color: #fff !important;
+}
+
+.s_text {
+  text-align: center;
+  font-weight: 600;
+}
   
 
-  /* Existing styles */
+#section2 {
+  background-color: #008ffd;
+}
+
+#section3 h1, #section3 h4 {
+  text-align: center;
+}
+
+#section3 h1 {
+  font-size: 40px;
+  padding: 0;
+  margin: 40px 0 0 0;
+}
+
+.icon_c {
+  text-align: center;
+}
+
+#section3 h4 {
+  font-size: 20px;
+  color: #777e90;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-container iframe {
+  max-width: 100%;
+}
+
+#section1 ul li {
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #f4f5f6;
+  color: #008ffd;
+  font-size: 12px;
+}
+
+#section1 ul {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/* Existing styles */
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  flex: 0 0 calc(50% - 20px); /* Subtract the desired gap between cards */
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
   .card {
-    background-color: #f1f1f1;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
-    flex: 0 0 calc(50% - 20px); /* Subtract the desired gap between cards */
-    box-sizing: border-box;
+    flex: 0 0 100%;
   }
-  
-  @media (max-width: 600px) {
-    .card {
-      flex: 0 0 100%;
-    }
-  }
+}
   
   /* Existing styles */
 
