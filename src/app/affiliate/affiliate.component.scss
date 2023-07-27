@@ -1,0 +1,55 @@
+#main {
+    margin-top: 80px;
+    padding: 40px;
+}
+
+section {
+    margin: 15px 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .video-container iframe {
+    max-width: 100%;
+  }
+  
+
+  /* Existing styles */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    flex: 0 0 calc(50% - 20px); /* Subtract the desired gap between cards */
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      flex: 0 0 100%;
+    }
+  }
+  
+  /* Existing styles */
+
+.image-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-card {
+  width: 300px;
+  border-radius: 10px;
+}

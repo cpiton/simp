@@ -1,0 +1,114 @@
+<div id="main">
+    <section id="section1">
+        <h3>
+            Refer <span style="color:rgb(0, 94, 255);">A Trader</span> Using ApexMarkets’ <span style="color:rgb(0, 94, 255);">Forex Affiliate Marketing Program</span> Receive $35 Instant FTD Bonus Plus Up To 80% Commission. They’ll Receive Up To 100% Welcome Bonus!
+        </h3>
+        <h4>
+            Start trading with the easiest and most secure platform to Trade Forex, Cryptocurrency, Commodities and MORE!
+        </h4>
+        <button>Become an Affiliate</button>
+    </section>
+    <section id="section2">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="section3" style="background-color: rgb(0, 110, 255); padding: 100px;">
+        <img src="./../../assets/affiliatedashboardnew.png" width="100%" alt="affiliatedashboard">
+    </section>
+    
+<section id="section4">
+    <h1>
+        Why Join Apex Markets'
+        Forex Affiliate Marketing Program?
+    </h1>
+    <h4>Here are a few reasons why you should become an Apex Markets affiliate</h4>
+    <div class="card-container">
+        <div class="card">
+          <h3>Receive $35 Instant FTD bonus Plus Up To 80% Commission</h3>
+          <p>Receive $35 instant FTD bonus when your invites signs up, verifies KYC, makes a first time deposit (FTD) and trades plus up to 80% commission of the trading fees everytime a trader you referred trades on Apex Markets, the best forex trading platform.</p>
+        </div>
+        <div class="card">
+            <h3>Automated Payouts</h3>
+            <p>Your earnings are automatically paid out to your Apex Markets wallet for you to withdraw instantly via bank transfer or cryptocurrency no matter where you live</p>
+        </div>
+        <div class="card">
+            <h3>Up To 100% Welcome Bonus</h3>
+            <p>Each trader you refer gets up to 100% Welcome Bonus when they sign up, verify KYC, make a first time deposit of $100 or more and trade on their Apex Markets account using your unique Apex Markets forex affiliate link.</p>
+        </div>
+        <div class="card">
+            <h3>Unlimited Earnings</h3>
+            <p>No limit on your earnings from our forex affiliate marketing program.</p>
+        </div>
+        <div class="card">
+            <h3>Marketing Resources</h3>
+            <p>We provide all your marketing resources to make it easier to share your Apex Markets forex Affiliate links.</p>
+        </div>
+        <div class="card">
+            <h3>Leaderboard & Rewards</h3>
+            <p>We give exclusive rewards to our top performing affiliates the more people you get to sign up using your Apex Markets affiliate links.</p>
+        </div>
+    </div>
+    </section>
+    
+    <section id="section5">
+        <h2>Apex Markets Pays The Best Forex Affiliate Marketing Commission & Instant Sign On Bonus In The Industry!</h2>
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+            <!--- Note that these columns can be defined in any order.
+                  The actual rendered columns are set as a property on the row definition" -->
+          
+            <!-- Position Column -->
+            <ng-container matColumnDef="position">
+              <th mat-header-cell *matHeaderCellDef> No. </th>
+              <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+            </ng-container>
+          
+            <!-- Name Column -->
+            <ng-container matColumnDef="name">
+              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+          
+            <!-- Weight Column -->
+            <ng-container matColumnDef="weight">
+              <th mat-header-cell *matHeaderCellDef> Weight </th>
+              <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+            </ng-container>
+          
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="symbol">
+              <th mat-header-cell *matHeaderCellDef> Symbol </th>
+              <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+            </ng-container>
+          
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>   
+          <h6>*Conversion Requirement: Conversion happens when the user clicks your affiliate invite link, signs up, verifies KYC, makes a first time deposit (FTD) and TRADE. First Time Deposit (FTD) Bonus and Affiliate Commissions are paid out to your Apex Markets affiliate wallet instantly once conversion requirements are met!</h6>       
+    </section>
+
+    <section id="section6" style="background-color: rgb(0, 94, 255);color: white;">
+    <h1>How To Start Earning From Our Forex Broker Affiliate Program?</h1>
+    <h4>By joining the Apex Markets’ affiliate program, you can share in the success of one of the world's best forex trading platforms. As an affiliate, you will receive a $35 instant FTD bonus for each trader who signs up using your unique invite link and deposits $10 or more, in addition you’ll earn up to 80% commission of the trading fees everytime a trader you referred trades on Apex Markets. From your Apex Markets dashboard, you will be able to track the performance of your referrals and see how much commission you are earning. So why wait? Sign up now and start earning! Step 1 Become an affiliate Join Apex Markets now and </h4>
+        <div>
+            <div class="image-card-container">
+                <mat-card class="image-card" *ngFor="let card of cards">
+                    <img mat-card-image [src]="card.imageUrl" alt="{{card.title}}">
+                    <mat-card-title>{{card.title}}</mat-card-title>
+                    <mat-card-content>
+                        <p>{{card.content}}</p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <button>Become An Affiliate</button>
+        </div>
+
+        <div>
+            <h2>Join the Apex Markets trading affiliate program today and receive a $35 instant FTD bonus , plus up to 80% commission by promoting Apex Markets to traders. With our easy-to-use affiliate tools, you can start earning commission on every referral in no time. So what are you waiting for? Sign up now and start earning!</h2>
+            <button>Join Now</button>
+        </div>
+    </section>
+</div>
+<app-footer></app-footer>
+    
