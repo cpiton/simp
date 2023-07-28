@@ -64,6 +64,7 @@ section {
   margin: 0 auto;
 }
 
+
 #section3 h1 {
   font-size: 40px;
   padding: 0 150px;
@@ -145,6 +146,164 @@ section {
   color: #000;
 }
 
+
+
+/* S_5 */
+
+#section5 h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#section5 h3 {
+  color: #777e90;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.icon-card_s5 {
+  background-color: #f4f5f6;;
+  color: #777e90;
+  width: 278px;
+  margin: 20px 10px;
+  border-radius: 20px;
+}
+
+.i_container_s5 {
+  color: #fff;
+  background-color: #000;
+  width: 110px;
+  height: 110px;
+  margin: 15px auto;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.i_container_s5 h1, .i_container_s5 p {
+  padding: 0;
+  margin: 0;
+}
+
+.i_container_s5 h1 {
+  font-size: 30px !important;
+  margin-top: 32px;
+}
+
+.i_container_s5 p {
+  font-size: 12px;
+}
+
+
+.icon-card_s5 mat-card-subtitle, .icon-card_s5 mat-card-content{
+  text-align: center;
+}
+
+.icon-card_s5 mat-card-subtitle {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.s_earning_btn {
+  color: #fff !important;
+  background-color: #000 !important;
+  border-radius: 15px;
+  font-weight: 600;
+  padding: 30px !important;
+}
+
+.s_earning_box {
+  margin: 60px auto;
+  width: fit-content;
+}
+
+
+/* BANNER FEES */
+
+#section6 {
+  background-color: #f4f5f6;
+}
+
+.fee_d_box {
+  width: fit-content;
+  margin: 0 auto;
+  color: #000;
+}
+
+
+
+.fee_d {
+  color: #000 !important;
+  padding: 25px;
+  text-align: center;
+}
+
+.fee_d h3, .fee_d h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.fee_d h3 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+
+/* GLOBAL MARKET */
+
+#section7 h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#section7 h4 {
+  text-align: center;
+  color: #777e90;
+  font-size: 20px;
+}
+
+.r_card_s7 {
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.icon_c_s7 {
+  text-align: center;
+  background-color: #f4f5f6;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 0;
+}
+
+.icon_c_s7 mat-icon {
+  position:relative;
+  font-size: 58px;
+  top: calc(32% - 10px); 
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+.r_content_s7 {
+  padding: 0;
+  margin: 0;
+}
+
+.r_content_s7 p {
+  color: #777e90;;
+}
+
+.s7_content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* */
+
+
+
 .icon_c {
   text-align: center;
   background-color: #f4f5f6;
@@ -205,39 +364,4 @@ section {
 
 
   
-  /* Existing styles */
-
-.image-card-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.image-card {
-  width: 300px;
-  border-radius: 10px;
-}
-
-/* Existing styles */
-
-.column-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-}
-
-.column {
-  background-color: #f1f1f1;
-  padding: 15px;
-  border: 1px solid #ddd;
-}
-
-.row-five-columns .col {
-  flex: 0 0 20%;
-  max-width: 20%;
-}
-
-.custom-col {
-  padding: 10px;
-}
-
+/*  */
