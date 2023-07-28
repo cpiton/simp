@@ -79,6 +79,7 @@ section {
 
 #section3 h1, #section3 h4 {
   text-align: center;
+  max-width: 80%;
 }
 
 #section4 {
@@ -104,6 +105,45 @@ section {
   font-size: 20px;
 }
 
+.icon-card {
+  background-color: #fff;
+  color: #777e90;
+  width: 278px;
+  margin: 20px 10px;
+  border-radius: 20px;
+}
+
+.i_container {
+  color: #fff;
+  background-color: #008ffd;
+  width: 110px;
+  height: 110px;
+  margin: 15px auto;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.i_container mat-icon {
+  position: relative;
+  font-size: 40px;
+  top: calc(40% - 10px);
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+
+
+.icon-card mat-card-title, .icon-card mat-card-subtitle, .icon-card mat-card-content{
+  text-align: center;
+}
+
+.icon-card mat-card-subtitle {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
 
 .icon_c {
   text-align: center;
